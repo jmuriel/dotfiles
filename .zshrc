@@ -5,7 +5,7 @@ PROMPT="%F{190}%n%f at %F{190}%M%f in %F{190}%~%f on %F{190}%y%f on %F{190}%D{%B
 #RPROMPT="%F{190}%t%f "
 
 # Colorize output of LS and list directories first
-alias ls='ls -F --color=auto' --group-directories-first
+alias ls='ls -F --color=auto --group-directories-first'
 
 # VIM bindings
 bindkey -v
