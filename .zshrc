@@ -19,7 +19,8 @@ bindkey -v
 # Colorize output of LS and list directories first on Linux (GNU only)
 alias ls='ls -F --color=auto --group-directories-first'
 
-# Colorize output of LS and on FreeBSD (not GNU)
+# Colorize output of LS and on FreeBSD (not GNU - and listing directories first
+# doesn't seem to be possible without replacing default ls.)
 alias ls='ls -F -G'
 
 # Use VIM instead of VI (for FreeBSD)
