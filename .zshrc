@@ -4,11 +4,21 @@ PROMPT="%F{190}%n%f at %F{190}%M%f in %F{190}%~%f on %F{190}%y%f on %F{190}%D{%B
 # Right Prompt Incompatible with long prompt above
 #RPROMPT="%F{190}%t%f "
 
-# Colorize output of LS and list directories first
+# Print a newline after every prompt except the first
+precmd()
+{
+    precmd()
+    {
+        echo
+    }
+}
+
+# Colorize output of LS and list directories first on Linux (GNU only)
 alias ls='ls -F --color=auto --group-directories-first'
 
-# VIM bindings
+# VIM bindings for ZSH
 bindkey -v
 
-# Use VIM instead of VI on FreeBSD
+# Use VIM instead of VI (for FreeBSD)
 alias vi='vim'
+
