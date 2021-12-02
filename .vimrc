@@ -1,12 +1,12 @@
-# I forgot why I needed this. Will comment better.
+" I forgot why I needed this. Will comment better.
 set nocompatible
 
-# Enable syntax highlighting
+" Enable syntax highlighting
 syntax on
 
-# Pressing the Tab key will send four spaces instead.
+" Pressing the Tab key will send four spaces instead.
 set expandtab
 set tabstop=4
 
-# Enable mouse scrolling
+" Enable mouse scrolling
 set mouse=a
