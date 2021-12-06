@@ -8,7 +8,7 @@
 #RPROMPT="%F{190}%t%f "
 
 # Long Lovely Prompt, overrides minimal prompt and incompatible with right prompt
-PROMPT="as %F{190}%n%f at %F{190}%M%f in %F{190}%~%f on %F{190}%y%f on %F{190}%D{%B %d, %Y}%f at %F{190}%D{%L:%M %p} %D{%Z}%f"$'\n'"> "
+PROMPT="%F{190}%n%f at %F{190}%M%f in %F{190}%~%f on %F{190}%y%f on %F{190}%D{%B %d, %Y}%f at %F{190}%D{%L:%M %p} %D{%Z}%f"$'\n'"> "
 
 # Print a newline after every prompt except the first. For use with long prompt.
 precmd()
