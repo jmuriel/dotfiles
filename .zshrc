@@ -11,16 +11,16 @@
 PROMPT="%F{190}%n%f at %F{190}%M%f in %F{190}%~%f on %F{190}%y%f on %F{190}%D{%B %d, %Y}%f at %F{190}%D{%L:%M %p} %D{%Z}%f"$'\n'"> "
 
 # Alternate Long Lovely Prompt
-PROMPT="%F{190}%n%f in %F{190}%/%f on %F{190}%M%f on %F{190}%y%f at %F{190}%D{%L:%M %p} %D{%Z}%f on %F{190}%D{%B %d, %Y}%f"$'\n'"> "
+PROMPT=$'\n'"%F{190}%n%f in %F{190}%/%f on %F{190}%M%f on %F{190}%y%f at %F{190}%D{%L:%M %p} %D{%Z}%f on %F{190}%D{%B %d, %Y}%f"$'\n'"> "
 
 # Print a newline after every prompt except the first. For use with long prompt.
-precmd()
-{
-    precmd()
-    {
-        echo
-    }
-}
+#precmd()
+#{
+#    precmd()
+#    {
+#        echo
+#    }
+#}
 
 # VIM bindings for ZSH
 bindkey -v
