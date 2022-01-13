@@ -1,7 +1,9 @@
 syntax on
+set formatoptions-=cro
 set nocompatible
 set expandtab
 set tabstop=4
+set noautoindent
 set mouse=a
 set number
 set ruler
@@ -13,6 +15,7 @@ highlight CursorLine term=bold cterm=bold
 
 "highlight Normal ctermfg=153
 "highlight ModeMsg ctermfg=yellow
+"highlight LineNr ctermfg=237
 
 "The following is an approximation (?) of the default ruler format.
 "set rulerformat=%-13.(%l,%c%V%)\ %P
