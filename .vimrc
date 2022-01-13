@@ -1,4 +1,5 @@
 syntax on
+au FileType * set fo-=c fo-=r fo-=o
 set formatoptions-=cro
 set nocompatible
 set expandtab
