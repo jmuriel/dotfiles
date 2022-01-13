@@ -35,3 +35,16 @@ alias ls='ls -F --color=auto --group-directories-first'
 # Use VIM instead of VI (for FreeBSD)
 alias vi='vim'
 
+# Launch emacs in terminal mode by default
+alias emacs='emacs -nw'
+
+# Reload bspwm (sxhkd) config using magic words
+alias restart_sxhkd='pkill -usr1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config''
+
+# Path with my home bins
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/13/bin:/home/jmuriel/bin
+
+# Helping w3m image renderer out. For use in Ranger. I think this isn't doing work anymore since I
+# Reconfigured ranger/w3m to use kitty mode.
+export W3MIMGDISPLAY_PATH=/usr/libexec/w3m/w3mimgdisplayfb
+
