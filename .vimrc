@@ -1,5 +1,4 @@
 syntax on
-au FileType * set fo-=c fo-=r fo-=o
 set formatoptions-=cro
 set nocompatible
 set expandtab
@@ -13,6 +12,7 @@ highlight EndOfBuffer ctermfg=black ctermbg=black
 highlight LineNr ctermfg=8 
 highlight CursorLineNr term=NONE cterm=NONE ctermfg=15 
 highlight CursorLine term=bold cterm=bold 
+au FileType * set fo-=c fo-=r fo-=o
 
 "highlight Normal ctermfg=153
 "highlight ModeMsg ctermfg=yellow
