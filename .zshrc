@@ -48,3 +48,4 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bi
 # Reconfigured ranger/w3m to use kitty mode.
 export W3MIMGDISPLAY_PATH=/usr/libexec/w3m/w3mimgdisplayfb
 
+export ZLE_REMOVE_SUFFIX_CHARS=""
